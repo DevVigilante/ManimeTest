@@ -1,0 +1,57 @@
+# ==============================
+# MANIM PROJECT .gitignore
+# ==============================
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+*.eggs/
+.env
+.venv
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# Manim cache and media output
+media/
+*/media/
+**/media/
+*.mp4
+*.png
+*.gif
+*.webm
+
+# Temp render outputs
+*.partial_movie_files/
+*.log
+*.aux
+*.tex
+*.svg
+*.out
+
+# Jupyter notebooks (optional)
+.ipynb_checkpoints/
+
+# OS / IDE junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Manim configuration (optional local file)
+manim.cfg
